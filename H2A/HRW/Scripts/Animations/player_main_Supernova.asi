@@ -1,0 +1,21 @@
+$animsetinstance {
+ #template "{F0C651DE8E24A5DE}DZ/anims/workspaces/player/player_main/player_main.ast"
+ #nparents 1
+ #parent "{416372172B0AFA90}DZ/anims/workspaces/player/player_main/player_main_rifle.asi"
+ $animations {
+   "WeaponOperations.ErcRas.ChamberingLoop_Closed_Bullet" "{AFC73259A953470E}DZ/anims/anm/player/reloads/MP133/p_rfl_erc_chambering_Bullet_looping_MP133_ras.anm"
+   "WeaponOperations.ErcRas.ChamberingLoop_Closed_NoBullet" "{678B2B144002B3C9}DZ/anims/anm/player/reloads/MP133/p_rfl_erc_chambering_noBullet_looping_MP133_ras.anm"
+   "WeaponOperations.ErcRas.Fire" "{3436410863E7DC38}DZ/anims/anm/player/reloads/Saiga/p_erc_fire_Saiga_ras.anm"
+   "WeaponOperations.ErcRas.FireEmptyAutomatic" "{129F02FB85B1E00E}DZ/anims/anm/player/reloads/Saiga/p_erc_fire_empty_automatic_Saiga_ras.anm"
+   "WeaponOperations.ErcRas.Jamming" "{05FBAFD3BF2B6538}DZ/anims/anm/player/reloads/MP133/p_rfl_erc_jam_MP133_ras.anm"
+   "WeaponOperations.ErcRas.Jamming Cancel" "{EC1855AC9B59981A}DZ/anims/anm/player/reloads/MP133/p_rfl_erc_jam_cancel_MP133_ras.anm"
+   "WeaponOperations.ErcRas.ReloadAction_Closed" "{5878A7AA5DE1A956}DZ/anims/anm/player/reloads/MP133/p_rfl_erc_reload_action_MP133_ras.anm"
+   "WeaponOperations.PneRas.ChamberingLoop_Closed_Bullet" "{5EF6DC5089915A26}DZ/anims/anm/player/reloads/MP133/p_rfl_pne_chambering_Bullet_looping_MP133_ras.anm"
+   "WeaponOperations.PneRas.ChamberingLoop_Closed_NoBullet" "{4C76DC224A13F256}DZ/anims/anm/player/reloads/MP133/p_rfl_pne_chambering_noBullet_looping_MP133_ras.anm"
+   "WeaponOperations.PneRas.Fire" "{1535FD7532BB18A9}DZ/anims/anm/player/reloads/Saiga/p_pne_fire_Saiga_ras.anm"
+   "WeaponOperations.PneRas.FireEmptyAutomatic" "{D7B4817280FE579F}DZ/anims/anm/player/reloads/Saiga/p_pne_fire_empty_automatic_Saiga_ras.anm"
+   "WeaponOperations.PneRas.Jamming" "{4D92CFA15D8CD004}DZ/anims/anm/player/reloads/MP133/p_rfl_pne_jam_MP133_ras.anm"
+   "WeaponOperations.PneRas.Jamming Cancel" "{5DBA02F795622B0E}DZ/anims/anm/player/reloads/MP133/p_rfl_pne_jam_cancel_MP133_ras.anm"
+   "WeaponOperations.PneRas.ReloadAction_Closed" "{6FF9202604BFC686}DZ/anims/anm/player/reloads/MP133/p_rfl_pne_reload_action_MP133_ras.anm"
+  
+ }

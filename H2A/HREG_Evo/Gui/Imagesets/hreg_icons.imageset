@@ -1,0 +1,132 @@
+ImageSetClass {
+ Name "hreg_icons"
+ RefSize 500 500
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{AA58DE05CFAD3785}H2A/HREG_Evo/Gui/Imagesets/hreg_icons.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass iconDirtyness0 {
+   Name "iconDirtyness0"
+   Pos 0 0
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconDirtyness1 {
+   Name "iconDirtyness1"
+   Pos 28 0
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconDirtyness2 {
+   Name "iconDirtyness2"
+   Pos 56 0
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconDirtyness3 {
+   Name "iconDirtyness3"
+   Pos 84 0
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconDirtyness4 {
+   Name "iconDirtyness4"
+   Pos 112 0
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconTiredness0 {
+   Name "iconTiredness0"
+   Pos 0 28
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconTiredness1 {
+   Name "iconTiredness1"
+   Pos 28 28
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconTiredness2 {
+   Name "iconTiredness2"
+   Pos 56 28
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconTiredness3 {
+   Name "iconTiredness3"
+   Pos 84 28
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconTiredness4 {
+   Name "iconTiredness4"
+   Pos 112 28
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconBiohazard0 {
+   Name "iconBiohazard0"
+   Pos 0 56
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconBiohazard1 {
+   Name "iconBiohazard1"
+   Pos 28 56
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconBiohazard2 {
+   Name "iconBiohazard2"
+   Pos 56 56
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconBiohazard3 {
+   Name "iconBiohazard3"
+   Pos 84 56
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass iconBiohazard4 {
+   Name "iconBiohazard4"
+   Pos 112 56
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass DietSystemBad {
+   Name "DietSystemBad"
+   Pos 159 0
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass DietSystemGood {
+   Name "DietSystemGood"
+   Pos 159 28
+   Size 28 28
+   Flags 0
+  }
+  ImageSetDefClass ImmuneShield {
+   Name "ImmuneShield"
+   Pos 159 56
+   Size 28 28
+   Flags 0
+  }
+ }
+ Groups {
+  ImageSetGroupClass Dirtyness {
+   Name "Dirtyness"
+   Images {
+   }
+  }
+  ImageSetGroupClass Tiredness {
+   Name "Tiredness"
+   Images {
+   }
+  }
+ }
+}

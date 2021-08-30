@@ -1,0 +1,15 @@
+__Sources__
+DayZ_Samples
+GreenCounty
+RedDetroit
+SurvivalSkills
+Test
+*.c
+*.xcf
+*.spp
+*.p3d
+model.cfg
+*.bak
+*.obf
+*.7z
+*.zip
