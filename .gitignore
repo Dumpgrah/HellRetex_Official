@@ -1,5 +1,4 @@
 __Sources__
-DayZ_Samples
 GreenCounty
 RedDetroit
 SurvivalSkills
@@ -13,3 +12,5 @@ model.cfg
 *.obf
 *.7z
 *.zip
+*.asi
+DayZ_Samples
