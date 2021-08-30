@@ -13,7 +13,16 @@ It contains the mods :
 All .p3d, .cfg, .asi and .c files are voluntarily removed from this repository.
  
 ## ISSUES & BUGS :
-Please use the system provided on Github "Issues" tab.
+Please use the system provided on Github "Issues" tab by opening a ticket, **don't forget to tell us which mod is concerned** on your ticket.
+
+**Any ticket not related to a bug and/or incomplete will not be answered**.
+
+We do not provide official support anymore, that is to say all the questions about the __installation__ and __the use of our mods on the server side__, you just have to read our documentations to have the adequate information. **However, our members on discord can probably help you**.
+
+For questions related to gameplay, i.e. the use of our mods by a player, you can consult our documentations or ask questions on our discord.
+
+## DOCUMENTATIONS & FILES : 
+https://drive.google.com/drive/folders/1Absk9bDQkuKhgXdkXGbxIcAu_POHfYm3
 
 ## KEEP IN TOUCH : 
 https://discord.gg/qZCYtbyvgC
