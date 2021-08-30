@@ -3,6 +3,8 @@ GreenCounty
 RedDetroit
 SurvivalSkills
 Test
+DayZ_Samples
+HRW
 *.c
 *.xcf
 *.spp
@@ -13,4 +15,4 @@ model.cfg
 *.7z
 *.zip
 *.asi
-DayZ_Samples
+
