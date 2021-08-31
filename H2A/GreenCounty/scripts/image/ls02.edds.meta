@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{37D8C2E1EEE22820}gui/ls02.edds"
+ Author "desktop-1rpjn7n"
+ ChangeDate 867953412
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "ls02.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

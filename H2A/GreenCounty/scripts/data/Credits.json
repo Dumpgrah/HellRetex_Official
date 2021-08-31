@@ -1,0 +1,21 @@
+{
+    "Departments": [
+        {
+            "DepartmentName": "Green County",
+            "Sections": [
+                {
+                    "SectionName": "Developers",
+                    "SectionLines": [
+                        "Hellmaker2a"
+                },
+                {
+                    "SectionName": "Special Thanks",
+                    "SectionLines": [
+                        "Scalp",
+                        "Cyril"
+                    ]
+                }
+            ]
+        }
+    ]
+}
