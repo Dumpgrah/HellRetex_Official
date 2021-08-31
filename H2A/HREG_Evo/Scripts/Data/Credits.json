@@ -1,0 +1,31 @@
+{
+    "Departments": [
+        {
+            "DepartmentName": "HellRetex Enhanced Gameplay - Evolution",
+            "Sections": [
+                {
+                    "SectionName": "Developers",
+                    "SectionLines": [
+                        "Hellmaker2a",
+                        "Scalp"
+                },
+                {
+                    "SectionName": "Special thanks to our tester group",
+                    "SectionLines": [
+                        "Boydy73",
+                        "Cyril_29",
+                        "DogDays",
+                        "Giaxpard",
+                        "kopo79",
+                        "Mirrador™",
+                        "Misho",
+                        "Rudi von Sackgesicht",
+                        "Shaggoth",
+                        "Zedmag",
+						"△Sinbad"
+                    ]
+                }
+            ]
+        }
+    ]
+}

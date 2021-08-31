@@ -1,0 +1,21 @@
+{
+    "Departments": [
+        {
+            "DepartmentName": "HellRetex Weapons",
+            "Sections": [
+                {
+                    "SectionName": "Developers",
+                    "SectionLines": [
+                        "Hellmaker2a"
+                },
+                {
+                    "SectionName": "Special Thanks",
+                    "SectionLines": [
+                        "Scalp",
+                        "Cyril"
+                    ]
+                }
+            ]
+        }
+    ]
+}
