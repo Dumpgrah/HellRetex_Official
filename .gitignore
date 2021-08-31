@@ -7,7 +7,7 @@ HRW
 /H2A/GreenCounty/data/layers/**
 /H2A/GreenCounty/data/layers_hiking/
 /H2A/GreenCounty/data/usermap/**
-/H2A/GreenCounty/data/gcpt/
+/H2A/GreenCounty/gcpt/
 /H2A/GreenCounty/navmesh/*.nm
 /H2A/GreenCounty/props/*.p3d
 /H2A/GreenCounty/roads/*.p3d
