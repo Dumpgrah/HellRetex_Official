@@ -9,6 +9,9 @@ It contains the mods :
 - *HellRetex Enhanced Gameplay Stable* (HREG_Fix) : https://steamcommunity.com/sharedfiles/filedetails/?id=2325290841
 - *HellRetex Enhanced Gameplay Evolution* (HREG_Evo) : https://steamcommunity.com/sharedfiles/filedetails/?id=2414502112
  
+## NOTA ##
+All .c .p3d and .asi files are not present on this repository.
+ 
 ## ISSUES & BUGS :
 Please use the system provided on Github "Issues" tab by opening a new issue, **don't forget to choice which mod is concerned and fill with all related informations**.
 **Any ticket not related to a bug and/or incomplete will not be answered**.
