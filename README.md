@@ -18,5 +18,8 @@ We do not provide official support anymore, that is to say all the questions abo
 
 For questions related to gameplay, i.e. the use of our mods by a player, you can consult our documentations or ask questions on our discord.
 
+## DOCS & FILES ##
+https://drive.google.com/drive/u/1/folders/1Absk9bDQkuKhgXdkXGbxIcAu_POHfYm3
+
 ## KEEP IN TOUCH : 
 https://discord.gg/qZCYtbyvgC
