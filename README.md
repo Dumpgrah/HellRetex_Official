@@ -10,7 +10,7 @@ It contains the mods :
 - *HellRetex Enhanced Gameplay Evolution* (HREG_Evo) : https://steamcommunity.com/sharedfiles/filedetails/?id=2414502112
 
 ## NOTA :
-All .p3d, .cfg, .asi and .c files are voluntarily removed from this repository.
+All .p3d, .cfg, .asi and .c files and map sources are voluntarily removed from this repository.
  
 ## ISSUES & BUGS :
 Please use the system provided on Github "Issues" tab by opening a ticket, **don't forget to tell us which mod is concerned** on your ticket.
