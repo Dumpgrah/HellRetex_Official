@@ -1,0 +1,81 @@
+    <type name="HRM_AliceBag_SUMRAK">
+		<cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_AssaultBag_SUMRAK">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_CargoPants_SUMRAK">
+        <cargo preset="mixArmy" />
+        <cargo preset="foodArmy" />    
+	</type>
+    <type name="HRM_CoyoteBag_SUMRAK">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_HuntingBag_SUMRAK">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+    <type name="HRM_GorkaJacket_SUMRAK">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_GorkaPants_SUMRAK">
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_HighCapacityVest_SUMRAK">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_M65Jacket_SUMRAK">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_PlateCarrierPouches_SUMRAK">
+        <cargo preset="mixArmy" />
+	</type>    
+	<type name="HRM_PlateCarrierHolster_SUMRAK">
+	</type>
+    <type name="HRM_PlateCarrierVest_SUMRAK">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_SmershBag_SUMRAK">
+        <cargo preset="foodArmy" />
+        <cargo preset="mixArmy" />
+    </type>	
+    <type name="HRM_SmershVest_SUMRAK">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_TacticalShirt_SUMRAK">
+		<cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_TortillaBag_SUMRAK">
+        <cargo preset="foodArmy" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_UKVest_SUMRAK">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+	</type>
+	<type name="HRM_VX600Belt_SUMRAK">
+		<attachments chance="1.00">
+			<item name="HRM_Canteen_SUMRAK" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HRM_PlateCarrierHolster_SUMRAK" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="NylonKnifeSheath" chance="0.50" />
+		</attachments>
+	</type>

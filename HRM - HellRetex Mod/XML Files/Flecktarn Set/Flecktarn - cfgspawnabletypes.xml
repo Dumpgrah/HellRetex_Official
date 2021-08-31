@@ -1,0 +1,81 @@
+    <type name="HRM_AliceBag_Flecktarn">
+		<cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_AssaultBag_Flecktarn">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_CargoPants_Flecktarn">
+        <cargo preset="mixArmy" />
+        <cargo preset="foodArmy" />    
+	</type>
+    <type name="HRM_CoyoteBag_Flecktarn">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_HuntingBag_Flecktarn">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+    <type name="HRM_GorkaJacket_Flecktarn">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_GorkaPants_Flecktarn">
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_HighCapacityVest_Flecktarn">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_M65Jacket_Flecktarn">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_PlateCarrierPouches_Flecktarn">
+        <cargo preset="mixArmy" />
+	</type>    
+	<type name="HRM_PlateCarrierHolster_Flecktarn">
+	</type>
+    <type name="HRM_PlateCarrierVest_Flecktarn">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_SmershBag_Flecktarn">
+        <cargo preset="foodArmy" />
+        <cargo preset="mixArmy" />
+    </type>	
+    <type name="HRM_SmershVest_Flecktarn">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_TacticalShirt_Flecktarn">
+		<cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_TortillaBag_Flecktarn">
+        <cargo preset="foodArmy" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_UKVest_Flecktarn">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+	</type>
+	<type name="HRM_VX600Belt_Flecktarn">
+		<attachments chance="1.00">
+			<item name="HRM_Canteen_Flecktarn" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HRM_PlateCarrierHolster_Flecktarn" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="NylonKnifeSheath" chance="0.50" />
+		</attachments>
+	</type>

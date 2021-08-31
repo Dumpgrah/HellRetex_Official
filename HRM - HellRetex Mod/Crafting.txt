@@ -1,0 +1,43 @@
+Crafting recipes for HellRetex Mod :
+
+Replace <RETEX_WEAR> by a wear in following camo :
+Barracude, CADPAT, CCE, DigitalFlora, DPM, ERDLUrban, Flecktarn, Kamysh, Lizard, Multicam, MulticamAlpine, MulticamArid, MulticamBlack, 
+MulticamTropic, PartizanM, Scorpion, Skol, SUMRAK, SURPAT, TigerStripes and VSR.
+
+<COLOR> is the color of the wear :
+HRM_CargoPants_CADPAT + Rope = HRM_Crafted_CourierBag_CADPAT
+
+1 Rope								+	1 <RETEX_WEAR>	=	1 HRM_Crafted_CourierBag_<COLOR>
+1 HRM_Crafted_CourierBag_<COLOR>	+	3 WoodenSticks	=	1 HRM_Crafted_ImprovisedBag_<COLOR>
+
+
+Crafting recipes for HellRetex Containers Additions :
+
+Replace <COLOR> by following :
+Green, Blue, Yellow, Red
+
+Replace <COLOR2> by following :
+Barracude, CADPAT, CCE, DigitalFlora, DPM, ERDLUrban, Flecktarn, Kamysh, Lizard, Multicam, MulticamAlpine, MulticamArid, MulticamBlack, 
+MulticamTropic, PartizanM, Scorpion, Skol, SUMRAK, SURPAT, TigerStripes, and VSR.
+
+1 Barrel_<COLOR>	+	1 HRM_Spraycan_<COLOR2> (100%)	=	1 HRM_Painted_Barrel_<COLOR2>
+
+
+
+Crafting recipes for HellRetex Ghillies Additions :
+
+Replace <COLOR> by following :
+Barracude, CADPAT, CCE, DigitalFlora, DPM, ERDLUrban, Flecktarn, Kamysh, Lizard, Multicam, MulticamAlpine, MulticamArid, MulticamBlack, 
+MulticamTropic, PartizanM, Scorpion, Skol, SUMRAK, SURPAT, TigerStripes, and VSR.
+
+1 GhillieBushrag_Tan		+	1 HRM_Spraycan_<COLOR> (50%)	=	1 HRM_Crafted_GhillieBushrag_<COLOR>
+1 GhillieAtt_Tan 		+	1 HRM_Spraycan_<COLOR> (40%)	=	1 HRM_Crafted_GhillieGunWrap_<COLOR>
+1 GhillieHood_Tan 		+	1 HRM_Spraycan_<COLOR> (40%)	=	1 HRM_Crafted_GhillieHood_<COLOR>
+1 GhillieSuit_Tan 		+	1 HRM_Spraycan_<COLOR> (90%)	=	1 HRM_Crafted_GhillieSuit_<COLOR>
+1 GhillieTop_Tan 		+	1 HRM_Spraycan_<COLOR> (75%)	=	1 HRM_Crafted_GhillieTop_<COLOR>
+
+REMEMBER :
+2 Netting	+	4 Burlap Strip	=	1 GhillieBushrag_Tan
+1 Netting	+	2 Burlap Strip	=	1 GhillieAtt_Tan
+1 Netting	+	2 Burlap Strip	=	1 GhillieHood_Tan
+3 Netting	+	6 Burlap Strip	=	1 GhillieTop_Tan

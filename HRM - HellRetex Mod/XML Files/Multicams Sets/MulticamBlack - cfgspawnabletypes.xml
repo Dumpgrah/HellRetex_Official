@@ -1,0 +1,81 @@
+    <type name="HRM_AliceBag_MulticamBlack">
+		<cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_AssaultBag_MulticamBlack">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_CargoPants_MulticamBlack">
+        <cargo preset="mixArmy" />
+        <cargo preset="foodArmy" />    
+	</type>
+    <type name="HRM_CoyoteBag_MulticamBlack">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_HuntingBag_MulticamBlack">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+    <type name="HRM_GorkaJacket_MulticamBlack">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_GorkaPants_MulticamBlack">
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_HighCapacityVest_MulticamBlack">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_M65Jacket_MulticamBlack">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_PlateCarrierPouches_MulticamBlack">
+        <cargo preset="mixArmy" />
+	</type>    
+	<type name="HRM_PlateCarrierHolster_MulticamBlack">
+	</type>
+    <type name="HRM_PlateCarrierVest_MulticamBlack">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_SmershBag_MulticamBlack">
+        <cargo preset="foodArmy" />
+        <cargo preset="mixArmy" />
+    </type>	
+    <type name="HRM_SmershVest_MulticamBlack">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_TacticalShirt_MulticamBlack">
+		<cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_TortillaBag_MulticamBlack">
+        <cargo preset="foodArmy" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_UKVest_MulticamBlack">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+	</type>
+	<type name="HRM_VX600Belt_MulticamBlack">
+		<attachments chance="1.00">
+			<item name="HRM_Canteen_MulticamBlack" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HRM_PlateCarrierHolster_MulticamBlack" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="NylonKnifeSheath" chance="0.50" />
+		</attachments>
+	</type>

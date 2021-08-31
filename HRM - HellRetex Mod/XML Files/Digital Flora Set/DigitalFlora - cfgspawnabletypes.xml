@@ -1,0 +1,81 @@
+    <type name="HRM_AliceBag_DigitalFlora">
+		<cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_AssaultBag_DigitalFlora">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_CargoPants_DigitalFlora">
+        <cargo preset="mixArmy" />
+        <cargo preset="foodArmy" />    
+	</type>
+    <type name="HRM_CoyoteBag_DigitalFlora">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_HuntingBag_DigitalFlora">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+    <type name="HRM_GorkaJacket_DigitalFlora">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_GorkaPants_DigitalFlora">
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_HighCapacityVest_DigitalFlora">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_M65Jacket_DigitalFlora">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_PlateCarrierPouches_DigitalFlora">
+        <cargo preset="mixArmy" />
+	</type>    
+	<type name="HRM_PlateCarrierHolster_DigitalFlora">
+	</type>
+    <type name="HRM_PlateCarrierVest_DigitalFlora">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_SmershBag_DigitalFlora">
+        <cargo preset="foodArmy" />
+        <cargo preset="mixArmy" />
+    </type>	
+    <type name="HRM_SmershVest_DigitalFlora">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_TacticalShirt_DigitalFlora">
+		<cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_TortillaBag_DigitalFlora">
+        <cargo preset="foodArmy" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_UKVest_DigitalFlora">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+	</type>
+	<type name="HRM_VX600Belt_DigitalFlora">
+		<attachments chance="1.00">
+			<item name="HRM_Canteen_DigitalFlora" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HRM_PlateCarrierHolster_DigitalFlora" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="NylonKnifeSheath" chance="0.50" />
+		</attachments>
+	</type>

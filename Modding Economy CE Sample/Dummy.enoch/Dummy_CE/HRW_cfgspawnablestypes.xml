@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<damage min="0.0" max="0.7" />
+	<type name="Hell_AEK971">
+		<attachments chance="0.30">
+			<item name="KashtanOptic" chance="0.20" />
+			<item name="PSO11Optic" chance="0.20" />
+			<item name="KazuarOptic" chance="0.20" />
+			<item name="KobraOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="AK_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK74_30Rnd_Black" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_AK12">
+		<attachments chance="1.00">
+			<item name="Hell_AK12_Buttstock" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="AK_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_AK12_30Rnd" chance="0.50" />
+			<item name="Mag_AK74_30Rnd_Black" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_AK12_Green">
+		<attachments chance="1.00">
+			<item name="Hell_AK12_Buttstock" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="AK_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_AK12_30Rnd" chance="0.50" />
+			<item name="Mag_AK74_30Rnd_Black" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_AK12_Sand">
+		<attachments chance="1.00">
+			<item name="Hell_AK12_Buttstock" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="AK_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_AK12_30Rnd" chance="0.50" />
+			<item name="Mag_AK74_30Rnd_Black" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_AlphaAK">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="AK_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK74_30Rnd_Black" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Hell_BarMK3">
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_BarMK3_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_DesertEagle">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_DesertEagle_9Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TLRLight" chance="0.50" />
+			<item name="Hell_Surefire_Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="FNP45_MRDSOptic" chance="0.50" />
+			<item name="PistolOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_DVL10">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_DVL10_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_DVL10_Green">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_DVL10_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_DVL10_Sand">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_DVL10_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_FAMASG2">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAGCoupled_30Rnd" chance="0.33" />
+			<item name="Mag_STANAG_30Rnd" chance="0.33" />
+		</attachments>
+	</type>
+	<type name="Hell_FAMASG2_Green">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAGCoupled_30Rnd" chance="0.33" />
+			<item name="Mag_STANAG_30Rnd" chance="0.33" />
+		</attachments>
+	</type>
+	<type name="Hell_FAMASG2_Sand">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAGCoupled_30Rnd" chance="0.33" />
+			<item name="Mag_STANAG_30Rnd" chance="0.33" />
+		</attachments>
+	</type>
+	<type name="Hell_FRF2">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_FRF2_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.33" />
+			<item name="HuntingOptic" chance="0.33" />
+			<item name="Hell_ScromeJ8_Optic" chance="0.33" />
+		</attachments>
+	</type>
+	<type name="Hell_Gewehr43">
+		<attachments chance="0.30">
+			<item name="ZF4_Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_Gewehr43_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_Hecate_II">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_Hecate_II_7Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_Hecate_II_Green">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_Hecate_II_7Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_Hecate_II_Sand">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_Hecate_II_7Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_HK416D">
+		<attachments chance="1.00">
+			<item name="Hell_HK416D_Buttstock" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hell_HK416D_Backsight" chance="0.80" />
+			<item name="ACOGOptic" chance="0.33" />
+			<item name="M4_T3NRDSOptic" chance="0.33" />
+			<item name="M68Optic" chance="0.33" />
+			<item name="ReflexOptic" chance="0.33" />
+			<item name="Hell_HAMR_Optic" chance="0.33" />
+			<item name="Hell_Holosight_Optic" chance="0.33" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_HK416D_Green">
+		<attachments chance="1.00">
+			<item name="Hell_HK416D_Buttstock" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hell_HK416D_Backsight" chance="0.80" />
+			<item name="ACOGOptic" chance="0.33" />
+			<item name="M4_T3NRDSOptic" chance="0.33" />
+			<item name="M68Optic" chance="0.33" />
+			<item name="ReflexOptic" chance="0.33" />
+			<item name="Hell_HAMR_Optic" chance="0.33" />
+			<item name="Hell_Holosight_Optic" chance="0.33" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_HK416D_Sand">
+		<attachments chance="1.00">
+			<item name="Hell_HK416D_Buttstock" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hell_HK416D_Backsight" chance="0.80" />
+			<item name="ACOGOptic" chance="0.33" />
+			<item name="M4_T3NRDSOptic" chance="0.33" />
+			<item name="M68Optic" chance="0.33" />
+			<item name="ReflexOptic" chance="0.33" />
+			<item name="Hell_HAMR_Optic" chance="0.33" />
+			<item name="Hell_Holosight_Optic" chance="0.33" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_HoneyBadger">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_HoneyBadger_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_HoneyBadger_BattleScars">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_HoneyBadger_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_KAC_PDW">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_KAC_PDW_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_KAR98K">
+		<attachments chance="0.30">
+			<item name="ZF4_Optic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_KS23" />
+	<type name="Hell_KS23_Sawed" />
+	<type name="Hell_L96A1">
+		<attachments chance="0.30">
+			<item name="Hell_Mag_L96A1_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_M1A_Raw">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_M1A_Raw_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_M1Garand">
+		<attachments chance="0.30">
+			<item name="Hell_MountingRail" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_M14_Tactical">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.142" />
+			<item name="M4_T3NRDSOptic" chance="0.142" />
+			<item name="M68Optic" chance="0.142" />
+			<item name="ReflexOptic" chance="0.142" />
+			<item name="Hell_HAMR_Optic" chance="0.142" />
+			<item name="Hell_Holosight_Optic" chance="0.142" />
+			<item name="Hell_Mk4_RMR_Optic" chance="0.142" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_M14_Tactical_15Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_M14EBR">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.142" />
+			<item name="M4_T3NRDSOptic" chance="0.142" />
+			<item name="M68Optic" chance="0.142" />
+			<item name="ReflexOptic" chance="0.142" />
+			<item name="Hell_HAMR_Optic" chance="0.142" />
+			<item name="Hell_Holosight_Optic" chance="0.142" />
+			<item name="Hell_Mk4_RMR_Optic" chance="0.142" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_M14EBR_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_M16A1">
+		<attachments chance="0.30">
+			<item name="M9A1_Bayonet" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="0.50" />
+			<item name="Hell_Mag_M16A1_20Rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_M16M">
+		<attachments chance="1.00">
+			<item name="M4_CQBBttstck" chance="0.10" />
+			<item name="M4_MPBttstck" chance="0.10" />
+			<item name="M4_OEBttstck" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_CarryHandleOptic" chance="0.80" />
+			<item name="ACOGOptic" chance="0.33" />
+			<item name="M4_T3NRDSOptic" chance="0.33" />
+			<item name="M68Optic" chance="0.33" />
+			<item name="ReflexOptic" chance="0.33" />
+			<item name="Hell_HAMR_Optic" chance="0.33" />
+			<item name="Hell_Holosight_Optic" chance="0.33" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_M16M_Raw">
+		<attachments chance="1.00">
+			<item name="M4_CarryHandleOptic" chance="0.80" />
+			<item name="ACOGOptic" chance="0.33" />
+			<item name="M4_T3NRDSOptic" chance="0.33" />
+			<item name="M68Optic" chance="0.33" />
+			<item name="ReflexOptic" chance="0.33" />
+			<item name="Hell_HAMR_Optic" chance="0.33" />
+			<item name="Hell_Holosight_Optic" chance="0.33" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_M82">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_M82_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_M82_Green">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_M82_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_M82_Sand">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_M82_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_M200_Dark">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_M200_7Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_M200_Light">
+		<attachments chance="0.10">
+			<item name="Hell_Mag_M200_7Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_M700R">
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_M700R_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_M700R_Black">
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_M700R_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_M700R_Camo">
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_M700R_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_M700R_Urban">
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_M700R_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_M1014">
+		<attachments chance="0.30">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ReflexOptic" chance="0.25" />
+			<item name="Hell_Holosight_Optic" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Hell_Marlin1895">
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_MAS36">
+		<attachments chance="0.30">
+			<item name="Hell_APX_SOM_Optic" chance="1.00" />
+		</attachments>		
+		<attachments chance="0.30">
+			<item name="Hell_MAS36_Bayonet" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_MAS49">
+		<attachments chance="0.30">
+			<item name="Hell_APX_SOM_Optic" chance="1.00" />
+		</attachments>		
+		<attachments chance="0.30">
+			<item name="Hell_MAS49_Bayonet" chance="1.00" />
+		</attachments>		
+		<attachments chance="0.30">
+			<item name="Hell_Mag_MAS49_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_MAT49">	
+		<attachments chance="0.30">
+			<item name="Hell_Mag_MAT49_32Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_MP9">
+		<attachments chance="0.30">
+			<item name="ReflexOptic" chance="0.33" />
+			<item name="Hell_HAMR_Optic" chance="0.33" />
+			<item name="Hell_Holosight_Optic" chance="0.33" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_MP9_Suppressor" chance="1.00" />
+		</attachments>		
+		<attachments chance="0.30">
+			<item name="Hell_Mag_MP9_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Surefire_Flashlight" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_MPX">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="0.166" />
+			<item name="M4_T3NRDSOptic" chance="0.166" />
+			<item name="M68Optic" chance="0.166" />
+			<item name="ReflexOptic" chance="0.166" />
+			<item name="Hell_HAMR_Optic" chance="0.166" />
+			<item name="Hell_Holosight_Optic" chance="0.166" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_MPX_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="PistolSuppressor" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_MRAD">
+		<attachments chance="0.30">
+			<item name="Hell_Mag_MRAD_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_R870T">
+		<attachments chance="1.00">
+			<item name="Hell_MountingRail" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="ReflexOptic" chance="0.25" />
+		</attachments>	
+	</type>
+	<type name="Hell_R870T_ABS">
+		<attachments chance="1.00">
+			<item name="Hell_MountingRail" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="ReflexOptic" chance="0.25" />
+		</attachments>	
+	</type>
+	<type name="Hell_RecurvedBow" />
+	<type name="Hell_Ruger1022">
+		<attachments chance="0.30">
+			<item name="Mag_Ruger1022_15Rnd" chance="0.50" />
+			<item name="Mag_Ruger1022_30Rnd" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_Ruger1022_Camo">
+		<attachments chance="0.30">
+			<item name="Mag_Ruger1022_15Rnd" chance="0.50" />
+			<item name="Mag_Ruger1022_30Rnd" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mk4_RMR_Optic" chance="0.50" />
+			<item name="HuntingOptic" chance="0.50" />
+		</attachments>	
+	</type>
+	<type name="Hell_SIG553">
+		<attachments chance="0.30">
+			<item name="Hell_MountingRail" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_SIG553_30Rnd" chance="0.33" />
+		</attachments>
+	</type>
+	<type name="Hell_SPAS12" />
+	<type name="Hell_SR25">
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="0.33" />
+			<item name="M4_T3NRDSOptic" chance="0.33" />
+			<item name="M68Optic" chance="0.33" />
+			<item name="ReflexOptic" chance="0.33" />
+			<item name="Hell_HAMR_Optic" chance="0.33" />
+			<item name="Hell_Holosight_Optic" chance="0.33" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_SR25_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_STF12">
+		<attachments chance="0.30">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="ReflexOptic" chance="0.25" />
+		</attachments>	
+	</type>
+	<type name="Hell_Supernova">
+		<attachments chance="0.30">
+			<item name="ReflexOptic" chance="0.25" />
+		</attachments>	
+	</type>
+	<type name="Hell_SVT40">
+		<attachments chance="0.30">
+			<item name="Hell_Mag_SVT40_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>	
+	</type>
+	<type name="Hell_Thompson">
+		<attachments chance="0.30">
+			<item name="Hell_Mag_Thompson_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_TOZ">
+		<attachments chance="0.30">
+			<item name="Hell_MarkFXII_Optic" chance="1.00" />
+		</attachments>		
+	</type>
+	<type name="Hell_USP_9x19">
+		<attachments chance="0.30">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TLRLight" chance="0.5" />
+			<item name="Hell_Surefire_Flashlight" chance="0.5" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_USP_9x19_15Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hell_Vepr">
+		<attachments chance="0.30">
+			<item name="KashtanOptic" chance="0.20" />
+			<item name="PSO11Optic" chance="0.20" />
+			<item name="KazuarOptic" chance="0.20" />
+			<item name="KobraOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="AK_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_Vepr_10Rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hell_VZ58">
+		<attachments chance="0.30">
+			<item name="KashtanOptic" chance="0.20" />
+			<item name="PSO11Optic" chance="0.20" />
+			<item name="KazuarOptic" chance="0.20" />
+			<item name="KobraOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="AK_Suppressor" chance="0.50" />
+			<item name="Hell_Universal_Suppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Hell_Mag_VZ58_30Rnd" chance="1.0" />
+		</attachments>
+	</type>
+	<!-- Damaged possible items spawns to give a sence of using Epoxy -->
+	<type name="Ammo_RecurvedBow" />
+	<type name="Hell_Mag_AK12_30Rnd" />
+	<type name="Hell_Mag_BarMK3_10Rnd" />
+	<type name="Hell_Mag_DesertEagle_9Rnd" />
+	<type name="Hell_Mag_DVL10_10Rnd" />
+	<type name="Hell_Mag_FAMASG2_25Rnd" />
+	<type name="Hell_Mag_FRF2_10Rnd" />
+	<type name="Hell_Mag_Gewehr43_10Rnd" />
+	<type name="Hell_Mag_Hecate_II_7Rnd" />
+	<type name="Hell_Mag_HoneyBadger_30Rnd" />
+	<type name="Hell_Mag_HoneyBadger_BattleScars_30Rnd" />
+	<type name="Hell_Mag_KAC_PDW_30Rnd" />
+	<type name="Hell_Mag_L96A1_10Rnd" />
+	<type name="Hell_Mag_M1A_Raw_10Rnd" />
+	<type name="Hell_Mag_M14_Tactical_15Rnd" />
+	<type name="Hell_Mag_M14EBR_20Rnd" />
+	<type name="Hell_Mag_M16A1_20Rnd" />
+	<type name="Hell_Mag_M82_10Rnd" />
+	<type name="Hell_Mag_M200_7Rnd" />
+	<type name="Hell_Mag_MAS49_10Rnd" />
+	<type name="Hell_Mag_MP9_30Rnd" />
+	<type name="Hell_Mag_MPX_30Rnd" />
+	<type name="Hell_Mag_MRAD_10Rnd" />
+	<type name="Hell_Mag_SIG553_30Rnd" />
+	<type name="Hell_Mag_SVT40_10Rnd" />
+	<type name="Hell_Mag_Thompson_30Rnd" />
+	<type name="Hell_Mag_USP_9x19_15Rnd" />
+	<type name="Hell_Mag_Vepr_10Rnd" />
+	<type name="Hell_Mag_VZ58_30Rnd" />
+	<!-- Attachments -->
+	<type name="Hell_AK12_Buttstock" />
+	<type name="Hell_AK12_Buttstock_Green" />
+	<type name="Hell_AK12_Buttstock_Sand" />
+    <type name="Hell_APX_SOM_Optic" />
+    <type name="Hell_HAMR_Optic" />
+	<type name="Hell_HK416D_Backsight" />
+	<type name="Hell_HK416D_Backsight_Green" />
+	<type name="Hell_HK416D_Backsight_Sand" />
+	<type name="Hell_HK416D_Buttstock" />
+	<type name="Hell_HK416D_Buttstock_Green" />
+	<type name="Hell_HK416D_Buttstock_Sand" />
+    <type name="Hell_Holosight_Optic" />
+	<type name="Hell_M700R_Suppressor" />
+    <type name="Hell_Mag_Drum_60Rnd" />
+    <type name="Hell_Mag_Drum_100Rnd" />
+    <type name="Hell_MarkFXII_Optic" />
+	<type name="Hell_MAS36_Bayonet" />
+	<type name="Hell_MAS49_Bayonet" />
+    <type name="Hell_Mk4_RMR_Optic" />
+    <type name="Hell_MountingRail" />
+	<type name="Hell_MP9_Suppressor" />
+    <type name="Hell_ScromeJ8_Optic" />
+    <type name="Hell_Surefire_Flashlight" />
+    <type name="Hell_Universal_Suppressor" />
+	<!-- Ammos -->
+    <type name="Ammo_RecurvedBow" />
+    <type name="Ammo_7x64" />
+    <type name="AmmoBox_7x64_20Rnd" />
+    <type name="Ammo_750x54" />
+    <type name="AmmoBox_750x54_20Rnd" />
+    <type name="Ammo_762x51" />
+    <type name="AmmoBox_762x51_20Rnd" />
+    <type name="Ammo_792x57" />
+    <type name="AmmoBox_792x57_20Rnd" />
+    <type name="Ammo_127x99" />
+	<type name="AmmoBox_127x99_10Rnd" />
+    <type name="Ammo_6x35" />
+    <type name="AmmoBox_6x35_20Rnd" />
+    <type name="Ammo_300AAC" />
+    <type name="AmmoBox_300AAC_20Rnd" />
+    <type name="Ammo_408" />
+    <type name="AmmoBox_408_20Rnd" />
+	<!-- Melee -->
+    <type name="Hell_KatanaScabbard" >
+		<attachments chance="1.00">
+			<item name="Hell_Katana" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="Hell_ShashkaScabbard" >
+		<attachments chance="1.00">
+			<item name="Hell_Shashka" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="Hell_GolfClub" />
+    <type name="Hell_ModernAxe" />
+    <type name="Hell_ModernTomahawk" />
+</spawnabletypes>
+
+
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	

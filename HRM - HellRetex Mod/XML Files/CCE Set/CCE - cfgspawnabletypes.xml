@@ -1,0 +1,81 @@
+    <type name="HRM_AliceBag_CCE">
+		<cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_AssaultBag_CCE">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_CargoPants_CCE">
+        <cargo preset="mixArmy" />
+        <cargo preset="foodArmy" />    
+	</type>
+    <type name="HRM_CoyoteBag_CCE">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_HuntingBag_CCE">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+    <type name="HRM_GorkaJacket_CCE">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_GorkaPants_CCE">
+		<cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_HighCapacityVest_CCE">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_M65Jacket_CCE">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_PlateCarrierPouches_CCE">
+        <cargo preset="mixArmy" />
+	</type>    
+	<type name="HRM_PlateCarrierHolster_CCE">
+	</type>
+    <type name="HRM_PlateCarrierVest_CCE">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_SmershBag_CCE">
+        <cargo preset="foodArmy" />
+        <cargo preset="mixArmy" />
+    </type>	
+    <type name="HRM_SmershVest_CCE">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />    
+	</type>
+    <type name="HRM_TacticalShirt_CCE">
+		<cargo preset="ammoArmy" />
+    </type>
+    <type name="HRM_TortillaBag_CCE">
+        <cargo preset="foodArmy" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="HRM_UKVest_CCE">
+        <cargo preset="mixArmy" />
+        <cargo preset="mixArmy" />
+	</type>
+	<type name="HRM_VX600Belt_CCE">
+		<attachments chance="1.00">
+			<item name="HRM_Canteen_CCE" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HRM_PlateCarrierHolster_CCE" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="NylonKnifeSheath" chance="0.50" />
+		</attachments>
+	</type>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <event name="TrajectoryConiferous">
+        <waves>0</waves>
+        <nominal>140</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>25</saferadius>
+        <distanceradius>100</distanceradius>
+        <cleanupradius>25</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="BoletusMushroom"/> <!-- Cepes -->
+            <child lootmax="0" lootmin="0" max="0" min="0" type="MacrolepiotaMushroom"/> <!-- Coulmelle -->
+            <child lootmax="0" lootmin="0" max="0" min="0" type="HRS_TinderMushroom"/> <!-- Amadouvier -->
+        </children>
+    </event>
+    <event name="TrajectoryHumus">
+        <nominal>140</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>25</saferadius>
+        <distanceradius>100</distanceradius>
+        <cleanupradius>25</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="AgaricusMushroom"/>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="PleurotusMushroom"/>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="HRS_TinderMushroom"/> <!-- Amadouvier -->
+        </children>
+    </event>
+    <event name="TrajectoryStones">
+        <waves>0</waves>
+        <nominal>100</nominal>
+        <min>1</min>
+        <max>2</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>25</saferadius>
+        <distanceradius>100</distanceradius>
+        <cleanupradius>25</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>parent</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="SmallStone"/>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="HRS_MarcasiteStone"/> <!-- Roche de Marcassite -->
+        </children>
+    </event>
+
+</events>
