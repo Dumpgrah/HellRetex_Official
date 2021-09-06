@@ -19,11 +19,11 @@ class HRW_Mag_Thompson_30Rnd: Magazine_Base
 				hitpoints = 100;
 				healthLevels[] = 
 				{
-					{1.01,{"H2A\HRW\Weapons\HRW_Thompson\Data\Body.rvmat"}},
-					{0.69999999,{"H2A\HRW\Weapons\HRW_Thompson\Data\Body.rvmat"}},
-					{0.5,{"H2A\HRW\Weapons\HRW_Thompson\Data\Body_damage.rvmat"}},
-					{0.30000001,{"H2A\HRW\Weapons\HRW_Thompson\Data\Body_damage.rvmat"}},
-					{0.01,{"H2A\HRW\Weapons\HRW_Thompson\Data\Body_destruct.rvmat"}}
+					{1.01,{"H2A\HRW\Weapons\HRW_Thompson\Data\BodyMetal.rvmat"}},
+					{0.69999999,{"H2A\HRW\Weapons\HRW_Thompson\Data\BodyMetal.rvmat"}},
+					{0.5,{"H2A\HRW\Weapons\HRW_Thompson\Data\BodyMetal_damage.rvmat"}},
+					{0.30000001,{"H2A\HRW\Weapons\HRW_Thompson\Data\BodyMetal_damage.rvmat"}},
+					{0.01,{"H2A\HRW\Weapons\HRW_Thompson\Data\BodyMetal_destruct.rvmat"}}
 				};
 			};
 		};

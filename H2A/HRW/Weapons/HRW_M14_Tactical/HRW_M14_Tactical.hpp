@@ -17,7 +17,7 @@ class HRW_M14_Tactical_Base: SVD_Base
 	ejectType = 1;
 	recoilModifier[] = {1,1,1};
 	swayModifier[] = {2.3,2.3,1.3};
-	simpleHiddenSelections[] = {"hide_barrel"};
+	simpleHiddenSelections[] = {"hide_barrel","rail"};
 	//drySound[] = {"dz\sounds\weapons\firearms\SKS\SKS_dry",0.5,1,20};
 	//reloadMagazineSound[] = {"dz\sounds\weapons\firearms\svd\svd_reload",1,1,30};
 	//reloadAction = "ReloadSVD";
@@ -349,13 +349,13 @@ class HRW_M14_Tactical: HRW_M14_Tactical_Base
 	displayName="$STR_M14_Tactical0";
 	descriptionShort = "$STR_M14_Tactical1";
 	model = "H2A\HRW\Weapons\HRW_M14_Tactical\HRW_M14_Tactical.p3d";
-	attachments[] = {"weaponWrap","weaponOptics","weaponMuzzleM4"};
+	attachments[] = {"weaponWrap","weaponOptics","suppressorImpro"};
 	itemSize[] = {9,3};
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M14_Tactical\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M14_Tactical\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M14_Tactical\Data\Body_co.paa"
+		"H2A\HRW\Weapons\HRW_M14_Tactical\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M14_Tactical\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M14_Tactical\Data\Body_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{

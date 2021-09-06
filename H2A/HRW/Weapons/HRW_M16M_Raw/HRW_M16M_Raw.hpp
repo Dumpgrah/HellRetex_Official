@@ -76,17 +76,17 @@ class HRW_M16M_Raw: HRW_M16M_Raw_Base
 	displayName = "$STR_M16M_Raw0";
 	descriptionShort = "$STR_M16M_Raw1";
 	model = "H2A\HRW\Weapons\HRW_M16M_Raw\HRW_M16M_Raw.p3d";
-	attachments[]={"weaponWrap","weaponOptics","weaponMuzzleM4"};
+	attachments[]={"weaponWrap","weaponOptics","suppressorImpro"};
 	itemSize[] = {8,3};
 	spawnDamageRange[] = {0.0,0.6};
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Stock_co.paa",
-		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Stock_co.paa",
-		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Stock_co.paa"
+		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Stock_ca.paa",
+		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Stock_ca.paa",
+		"H2A\HRW\Weapons\HRW_M16M_Raw\Data\Stock_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{

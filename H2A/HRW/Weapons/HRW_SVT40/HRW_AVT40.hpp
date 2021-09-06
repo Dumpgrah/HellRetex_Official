@@ -21,7 +21,7 @@ class HRW_AVT40_Base: SVD_Base
 	//drySound[] = {"dz\sounds\weapons\firearms\SKS\SKS_dry",0.5,1,20};
 	//reloadMagazineSound[] = {"dz\sounds\weapons\firearms\svd\svd_reload",1,1,30};
 	//reloadAction = "ReloadSVD";
-	hiddenSelections[]={"body"};
+	hiddenSelections[] = {"body_metal","body_wood"};
 	modes[] = {"FullAuto"};
 	class FullAuto: Mode_FullAuto
 	{
@@ -334,14 +334,8 @@ class HRW_AVT40: HRW_AVT40_Base
 	model = "H2A\HRW\Weapons\HRW_SVT40\HRW_SVT40.p3d";
 	attachments[]={"weaponWrap","suppressorImpro","weaponOpticsMosin"};
 	itemSize[]={10,3};
-	hiddenSelectionsTextures[] = 
-	{
-		"H2A\HRW\Weapons\HRW_SVT40\Data\Body_A_ca.paa"
-	};
-	hiddenSelectionsMaterials[] = 
-	{
-		"H2A\HRW\Weapons\HRW_SVT40\Data\Body.rvmat"
-	};
+	hiddenSelectionsTextures[] = {"H2A\HRW\Weapons\HRW_SVT40\Data\Body_A_ca.paa","H2A\HRW\Weapons\HRW_SVT40\Data\Body_A_ca.paa"};
+	hiddenSelectionsMaterials[] = {"H2A\HRW\Weapons\HRW_SVT40\Data\BodyMetal.rvmat","H2A\HRW\Weapons\HRW_SVT40\Data\BodyWood.rvmat"};
 	class DamageSystem
 	{
 		class GlobalHealth
@@ -351,22 +345,11 @@ class HRW_AVT40: HRW_AVT40_Base
 				hitpoints = 250;
 				healthLevels[] = 
 				{
-					{1.01,{
-						"H2A\HRW\Weapons\HRW_SVT40\Data\Body.rvmat"
-					}},
-					{0.7,{
-						"H2A\HRW\Weapons\HRW_SVT40\Data\Body.rvmat"
-
-					}},
-					{0.5,{
-						"H2A\HRW\Weapons\HRW_SVT40\Data\Body_damage.rvmat"
-					}},
-					{0.3,{
-						"H2A\HRW\Weapons\HRW_SVT40\Data\Body_damage.rvmat"
-					}},
-					{0.01,{
-						"H2A\HRW\Weapons\HRW_SVT40\Data\Body_destruct.rvmat"
-					}}
+					{1.0,{"H2A\HRW\Weapons\HRW_SVT40\Data\BodyMetal.rvmat","H2A\HRW\Weapons\HRW_SVT40\Data\BodyWood.rvmat"}},
+					{0.7,{"H2A\HRW\Weapons\HRW_SVT40\Data\BodyMetal.rvmat","H2A\HRW\Weapons\HRW_SVT40\Data\BodyWood.rvmat"}},
+					{0.5,{"H2A\HRW\Weapons\HRW_SVT40\Data\BodyMetal_damage.rvmat","H2A\HRW\Weapons\HRW_SVT40\Data\BodyWood_damage.rvmat"}},
+					{0.3,{"H2A\HRW\Weapons\HRW_SVT40\Data\BodyMetal_damage.rvmat","H2A\HRW\Weapons\HRW_SVT40\Data\BodyWood_damage.rvmat"}},
+					{0.01,{"H2A\HRW\Weapons\HRW_SVT40\Data\BodyMetal_destruct.rvmat","H2A\HRW\Weapons\HRW_SVT40\Data\BodyWood_destruct.rvmat"}}
 				};
 			};
 		};

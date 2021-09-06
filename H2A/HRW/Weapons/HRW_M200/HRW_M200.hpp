@@ -100,7 +100,7 @@ class HRW_M200_Dark: HRW_M200_Base
 	displayName = "$STR_M200_Dark0";
 	descriptionShort="$STR_M2001";
 	model="H2A\HRW\Weapons\HRW_M200\HRW_M200.p3d";
-	attachments[]={"weaponWrap","weaponOpticsHunting"};
+	attachments[]={"weaponWrap","weaponOpticsHunting","suppressorImpro"};
 	itemSize[] = {10,3};
 	hiddenSelectionsTextures[] = 
 	{
@@ -157,7 +157,7 @@ class HRW_M200_Light: HRW_M200_Base
 	descriptionShort="$STR_M2001";
 	model="H2A\HRW\Weapons\HRW_M200\HRW_M200.p3d";
 	itemSize[] = {10,3};
-	attachments[]={"weaponWrap","weaponOpticsHunting"};
+	attachments[]={"weaponWrap","weaponOpticsHunting","suppressorImpro"};
 	hiddenSelectionsTextures[] = 
 	{
 		"H2A\HRW\Weapons\HRW_M200\Data\BodyLight_ca.paa",

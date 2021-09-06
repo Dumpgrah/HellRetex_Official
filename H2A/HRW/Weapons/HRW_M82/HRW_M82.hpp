@@ -342,9 +342,9 @@ class HRW_M82: HRW_M82_Base
 	itemSize[]={11,3};
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M82\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M82\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M82\Data\Body_co.paa"
+		"H2A\HRW\Weapons\HRW_M82\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M82\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M82\Data\Body_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{
@@ -398,9 +398,9 @@ class HRW_M82_Green: HRW_M82
 	displayName="$STR_M82_Green0";
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M82\Data\Body_Green_co.paa",
-		"H2A\HRW\Weapons\HRW_M82\Data\Body_Green_co.paa",
-		"H2A\HRW\Weapons\HRW_M82\Data\Body_Green_co.paa"
+		"H2A\HRW\Weapons\HRW_M82\Data\Body_Green_ca.paa",
+		"H2A\HRW\Weapons\HRW_M82\Data\Body_Green_ca.paa",
+		"H2A\HRW\Weapons\HRW_M82\Data\Body_Green_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{
@@ -417,9 +417,9 @@ class HRW_M82_Sand: HRW_M82
 	displayName="$STR_M82_Sand0";
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M82\Data\Body_Sand_co.paa",
-		"H2A\HRW\Weapons\HRW_M82\Data\Body_Sand_co.paa",
-		"H2A\HRW\Weapons\HRW_M82\Data\Body_Sand_co.paa"
+		"H2A\HRW\Weapons\HRW_M82\Data\Body_Sand_ca.paa",
+		"H2A\HRW\Weapons\HRW_M82\Data\Body_Sand_ca.paa",
+		"H2A\HRW\Weapons\HRW_M82\Data\Body_Sand_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{

@@ -24,7 +24,7 @@ class HRW_M700R_Base: Winchester70_Base
 	//reloadSound[] = {"dz\sounds\weapons\firearms\winchester70\winchester70_cycle",0.8,1,20};
 	//reloadAction = "ReloadWinchester70";
 	//shotAction = "ReloadWinchester70_shot";
-	hiddenSelections[] = {"body_metal","body_wood","body_plastic"};
+	hiddenSelections[] = {"body_metal","body_mixed"};
 	modes[] = {"Single"};
 	class Single: Mode_SemiAuto
 	{
@@ -61,15 +61,13 @@ class HRW_M700R: HRW_M700R_Base
 	itemSize[] = {9,3};
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_co.paa"
+		"H2A\HRW\Weapons\HRW_M700R\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M700R\Data\Body_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{
 		"H2A\HRW\Weapons\HRW_M700R\Data\BodyMetal.rvmat",
-		"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood.rvmat",
-		"H2A\HRW\Weapons\HRW_M700R\Data\BodyPlastic.rvmat"
+		"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood.rvmat"
 	};
 	class DamageSystem
 	{
@@ -81,28 +79,23 @@ class HRW_M700R: HRW_M700R_Base
 				healthLevels[] = {
 					{1.0,{
 						"H2A\HRW\Weapons\HRW_M700R\Data\BodyMetal.rvmat",
-						"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood.rvmat",
-						"H2A\HRW\Weapons\HRW_M700R\Data\BodyPlastic.rvmat"
+						"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood.rvmat"
 					}},
 					{0.7,{
 						"H2A\HRW\Weapons\HRW_M700R\Data\BodyMetal.rvmat",
-						"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood.rvmat",
-						"H2A\HRW\Weapons\HRW_M700R\Data\BodyPlastic.rvmat"
+						"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood.rvmat"
 					}},
 					{0.5,{
 						"H2A\HRW\Weapons\HRW_M700R\Data\BodyMetal_damage.rvmat",
-						"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood_damage.rvmat",
-						"H2A\HRW\Weapons\HRW_M700R\Data\BodyPlastic_damage.rvmat"
+						"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood_damage.rvmat"
 					}},
 					{0.3,{
 						"H2A\HRW\Weapons\HRW_M700R\Data\BodyMetal_damage.rvmat",
-						"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood_damage.rvmat",
-						"H2A\HRW\Weapons\HRW_M700R\Data\BodyPlastic_damage.rvmat"
+						"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood_damage.rvmat"
 					}},
 					{0.0,{
 						"H2A\HRW\Weapons\HRW_M700R\Data\BodyMetal_destruct.rvmat",
-						"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood_destruct.rvmat",
-						"H2A\HRW\Weapons\HRW_M700R\Data\BodyPlastic_destruct.rvmat"
+						"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood_destruct.rvmat"
 					}}
 				};
 			};
@@ -157,13 +150,11 @@ class HRW_M700R_Black: HRW_M700R
 	color="Black";
 	displayName = "$STR_M700R_Black0";
 	hiddenSelectionsTextures[] = {
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Black_co.paa",
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Black_co.paa",
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Black_co.paa"
+		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Black_ca.paa",
+		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Black_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = {
 		"H2A\HRW\Weapons\HRW_M700R\Data\BodyMetal.rvmat",
-		"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood.rvmat",
 		"H2A\HRW\Weapons\HRW_M700R\Data\BodyPlastic.rvmat"
 	};
 };
@@ -175,13 +166,11 @@ class HRW_M700R_Camo: HRW_M700R
 	displayName = "$STR_M700R_Camo0";
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Camo_co.paa",
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Camo_co.paa",
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Camo_co.paa"
+		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Camo_ca.paa",
+		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Camo_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = {
 		"H2A\HRW\Weapons\HRW_M700R\Data\BodyMetal.rvmat",
-		"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood.rvmat",
 		"H2A\HRW\Weapons\HRW_M700R\Data\BodyPlastic.rvmat"
 	};
 };
@@ -193,14 +182,12 @@ class HRW_M700R_Urban: HRW_M700R
 	displayName = "$STR_M700R_Urban0";
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Urban_co.paa",
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Urban_co.paa",
-		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Urban_co.paa"
+		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Urban_ca.paa",
+		"H2A\HRW\Weapons\HRW_M700R\Data\Body_Urban_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{
 		"H2A\HRW\Weapons\HRW_M700R\Data\BodyMetal.rvmat",
-		"H2A\HRW\Weapons\HRW_M700R\Data\BodyWood.rvmat",
 		"H2A\HRW\Weapons\HRW_M700R\Data\BodyPlastic.rvmat"
 	};
 };

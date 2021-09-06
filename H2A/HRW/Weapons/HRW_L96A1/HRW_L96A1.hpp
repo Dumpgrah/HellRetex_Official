@@ -99,7 +99,7 @@ class HRW_L96A1: HRW_L96A1_Base
 	displayName = "$STR_L96A10";
 	descriptionShort="$STR_L96A11";
 	model="H2A\HRW\Weapons\HRW_L96A1\HRW_L96A1.p3d";
-	attachments[]={"weaponWrap","weaponOpticsHunting"};
+	attachments[]={"weaponWrap","weaponOpticsHunting","suppressorImpro"};
 	itemSize[] = {9,3};
 	hiddenSelectionsTextures[]=
 	{

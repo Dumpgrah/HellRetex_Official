@@ -136,9 +136,9 @@ class HRW_Marlin1895: HRW_Marlin1895_Base
 	itemSize[] = {9,3};
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_Marlin1895\Data\Body_co.paa"
-		"H2A\HRW\Weapons\HRW_Marlin1895\Data\Body_co.paa"
-		"H2A\HRW\Weapons\HRW_Marlin1895\Data\Leather_co.paa"
+		"H2A\HRW\Weapons\HRW_Marlin1895\Data\Body_ca.paa"
+		"H2A\HRW\Weapons\HRW_Marlin1895\Data\Body_ca.paa"
+		"H2A\HRW\Weapons\HRW_Marlin1895\Data\Leather_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{

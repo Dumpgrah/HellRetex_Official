@@ -121,8 +121,8 @@ class HRW_M1014: HRW_M1014_Base
 	weight = 3800;
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M1014\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M1014\Data\Body_co.paa"
+		"H2A\HRW\Weapons\HRW_M1014\Data\Body_Metal_ca.paa",
+		"H2A\HRW\Weapons\HRW_M1014\Data\Body_Plastic_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{

@@ -76,15 +76,15 @@ class HRW_M16A1: HRW_M16A1_Base
 	displayName = "$STR_M16A10";
 	descriptionShort = "$STR_M16A11";
 	model = "H2A\HRW\Weapons\HRW_M16A1\HRW_M16A1.p3d";
-	attachments[]={"weaponWrap","weaponBayonet"};
+	attachments[]={"weaponWrap","weaponBayonet","suppressorImpro"};
 	itemSize[] = {8,3};
 	spawnDamageRange[] = {0.0,0.6};
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M16A1\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M16A1\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M16A1\Data\Handguard_co.paa",
-		"H2A\HRW\Weapons\HRW_M16A1\Data\Sling_co.paa"
+		"H2A\HRW\Weapons\HRW_M16A1\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M16A1\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M16A1\Data\Handguard_ca.paa",
+		"H2A\HRW\Weapons\HRW_M16A1\Data\Sling_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{

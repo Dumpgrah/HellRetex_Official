@@ -10,10 +10,15 @@ class HRW_Thompson_Base: AKS74U
 	PPDOFProperties[] = {1,0.5,50,175,4,10};
 	WeaponLength=0.81;
 	initSpeedMultiplier = 0.8;
+	chamberSize = 1;
+	chamberedRound = "";
+	chamberableFrom[] = {"Ammo_45ACP"};
+	magazines[] = {"HRW_Mag_Thompson_30Rnd"};
+	magazineSwitchTime = 0.2;
+	ejectType = 1;
 	recoilModifier[] = {1,1,1};
 	swayModifier[] = {1.8,1.8,1};
-	//hiddenSelectionsTextures[] = {"dz\weapons\firearms\AK74\data\aks74u_co.paa"};
-	//hiddenSelectionsMaterials[] = {"dz\weapons\firearms\AK74\data\aks74u.rvmat"};
+	hiddenSelections[] = {"body_metal","body_wood"};
 	class FullAuto: Mode_FullAuto
 	{
 		soundSetShot[]={"UMP45_Shot_SoundSet","UMP45_Tail_SoundSet","UMP45_InteriorTail_SoundSet"};
@@ -48,6 +53,8 @@ class HRW_Thompson_Base: AKS74U
 		dispersion = 0.003;
 		magazineSlot = "magazine";
 	};
+	hiddenSelectionsTextures[] = {"H2A\HRW\Weapons\HRW_Thompson\Data\Body_ca.paa","H2A\HRW\Weapons\HRW_Thompson\Data\Body_ca.paa"};
+	hiddenSelectionsMaterials[] = {"H2A\HRW\Weapons\HRW_Thompson\Data\BodyMetal.rvmat","H2A\HRW\Weapons\HRW_Thompson\Data\BodyWood.rvmat"};
 	class DamageSystem
 	{
 		class GlobalHealth
@@ -57,11 +64,11 @@ class HRW_Thompson_Base: AKS74U
 				hitpoints = 250;
 				healthLevels[] = 
 				{
-					{1.0,{"H2A\HRW\Weapons\HRW_Thompson\Data\Body.rvmat"}},
-					{0.7,{"H2A\HRW\Weapons\HRW_Thompson\Data\Body.rvmat"}},
-					{0.5,{"H2A\HRW\Weapons\HRW_Thompson\Data\Body_damage.rvmat"}},
-					{0.3,{"H2A\HRW\Weapons\HRW_Thompson\Data\Body_damage.rvmat"}},
-					{0.0,{"H2A\HRW\Weapons\HRW_Thompson\Data\Body_destruct.rvmat"}}
+					{1.0,{"H2A\HRW\Weapons\HRW_Thompson\Data\BodyMetal.rvmat","H2A\HRW\Weapons\HRW_Thompson\Data\BodyWood.rvmat"}},
+					{0.7,{"H2A\HRW\Weapons\HRW_Thompson\Data\BodyMetal.rvmat","H2A\HRW\Weapons\HRW_Thompson\Data\BodyWood.rvmat"}},
+					{0.5,{"H2A\HRW\Weapons\HRW_Thompson\Data\BodyMetal_damage.rvmat","H2A\HRW\Weapons\HRW_Thompson\Data\BodyWood_damage.rvmat"}},
+					{0.3,{"H2A\HRW\Weapons\HRW_Thompson\Data\BodyMetal_damage.rvmat","H2A\HRW\Weapons\HRW_Thompson\Data\BodyWood_damage.rvmat"}},
+					{0.01,{"H2A\HRW\Weapons\HRW_Thompson\Data\BodyMetal_destruct.rvmat","H2A\HRW\Weapons\HRW_Thompson\Data\BodyWood_destruct.rvmat"}}
 				};
 			};
 		};

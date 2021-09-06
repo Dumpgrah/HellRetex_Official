@@ -13,7 +13,7 @@ class HRW_Ruger1022_Base: Ruger1022_Base
 	chamberSize = 1;
 	chamberedRound = "";
 	chamberableFrom[] = {"Ammo_22"};
-	magazines[] = {"Mag_Ruger1022_30Rnd","Mag_Ruger1022_15Rnd"};
+	magazines[] = {"Mag_Ruger1022_30Rnd","Mag_Ruger1022_15Rnd","Mag_Ruger1022_10Rnd"};
 	magazineSwitchTime = 0.4;
 	ejectType = 1;
 	recoilModifier[] = {1,1,1};

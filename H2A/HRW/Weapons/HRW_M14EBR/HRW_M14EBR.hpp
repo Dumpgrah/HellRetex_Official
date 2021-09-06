@@ -353,8 +353,8 @@ class HRW_M14EBR: HRW_M14EBR_Base
 	itemSize[] = {8,3};
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M14EBR\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M14EBR\Data\Body_co.paa"
+		"H2A\HRW\Weapons\HRW_M14EBR\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M14EBR\Data\Body_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{

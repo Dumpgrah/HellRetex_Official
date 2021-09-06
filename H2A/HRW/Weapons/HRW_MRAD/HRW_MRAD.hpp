@@ -1,7 +1,7 @@
 class HRW_MRAD_Base: CZ527_Base
 {
 	scope = 0;
-	animName = "cz527";
+	//animName = "cz527";
 	weight = 2720;
 	absorbency = 0.0;
 	repairableWithKits[] = {1};
@@ -24,12 +24,12 @@ class HRW_MRAD_Base: CZ527_Base
 	ejectType = 0;
 	recoilModifier[] = {1,1,1};
 	swayModifier[] = {2.2,2.2,1.2};
-	simpleHiddenSelections[] = {"sights","hide_barrel"};
+	simpleHiddenSelections[] = {"hide_barrel","sights_up","sights_down"};
 	//drySound[] = {"dz\sounds\weapons\firearms\mosin9130\mosin_dry",0.5,1,20};
 	//reloadMagazineSound[] = {"dz\sounds\weapons\firearms\CR527\cz527_reload_0",1,1,20};
 	//reloadSound[] = {"dz\sounds\weapons\firearms\CR527\cz527_cycling_0",1,1,20};
-	reloadAction = "Reloadcz527";
-	shotAction = "Reloadcz527Shot";
+	//reloadAction = "Reloadcz527";
+	//shotAction = "Reloadcz527Shot";
 	hiddenSelections[] = {"body_metal","body_plastic"};
 	modes[] = {"Single"};
 	class Single: Mode_Single
@@ -147,7 +147,7 @@ class HRW_MRAD_Green: HRW_MRAD
 	};
 	hiddenSelectionsMaterials[]=
 	{
-		"H2A\HRW\Weapons\HRW_MRAD\Data\BodyMetal.rvmat",
+		"H2A\HRW\Weapons\HRW_MRAD\Data\BodyMetalPainted.rvmat",
 		"H2A\HRW\Weapons\HRW_MRAD\Data\BodyPlastic.rvmat"
 	};
 };
@@ -165,7 +165,7 @@ class HRW_MRAD_Sand: HRW_MRAD
 	};
 	hiddenSelectionsMaterials[]=
 	{
-		"H2A\HRW\Weapons\HRW_MRAD\Data\BodyMetal.rvmat",
+		"H2A\HRW\Weapons\HRW_MRAD\Data\BodyMetalPainted.rvmat",
 		"H2A\HRW\Weapons\HRW_MRAD\Data\BodyPlastic.rvmat"
 	};
 };

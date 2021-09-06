@@ -327,14 +327,14 @@ class HRW_M1A_Raw: HRW_M1A_Raw_Base
 	displayName="$STR_M1A_Raw0";
 	descriptionShort = "$STR_M1A_Raw1";
 	model = "H2A\HRW\Weapons\HRW_M1A_Raw\HRW_M1A_Raw.p3d";
-	attachments[] = {"weaponWrap","weaponOptics","weaponMuzzleM4"};
+	attachments[] = {"weaponWrap","weaponOptics","suppressorImpro"};
 	itemSize[] = {8,3};
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M1A_Raw\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M1A_Raw\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M1A_Raw\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M1A_Raw\Data\Body_co.paa"
+		"H2A\HRW\Weapons\HRW_M1A_Raw\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M1A_Raw\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M1A_Raw\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M1A_Raw\Data\Body_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{

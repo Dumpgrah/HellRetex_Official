@@ -8,7 +8,7 @@ class HRW_TOZ_Base: B95_Base
 	repairCosts[] = {25.0};
 	chamberSize = 1;
 	chamberedRound = "";
-	chamberableFrom[] = {"Ammo_308Win","Ammo_308WinTracer","Mag_308WinSnaploader_2Rnd"};
+	chamberableFrom[] = {"Ammo_12gaPellets","Ammo_12gaSlug","Ammo_12gaRubberSlug","Ammo_12gaBeanbag"};
 	magazines[] = {};
 	DisplayMagazine = 0;
 	winchesterTypeOpticsMount = 1;

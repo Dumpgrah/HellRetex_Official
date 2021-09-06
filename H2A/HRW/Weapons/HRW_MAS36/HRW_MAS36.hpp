@@ -8,10 +8,11 @@ class HRW_MAS36_Base: Mosin9130_Base
 	absorbency = 0.0;
 	repairableWithKits[] = {1};
 	repairCosts[] = {25.0};
-	PPDOFProperties[] = {};
+	PPDOFProperties[] = {1,0.5,20,170,4,10};
 	DisplayMagazine = 0;
-	WeaponLength = 1.22271;
+	WeaponLength = 1.02;
 	barrelArmor = 2.0;
+	initSpeedMultiplier = 1.05;
 	chamberSize = 5;
 	chamberedRound = "";
 	chamberableFrom[] = {"Ammo_750x54"};
@@ -21,22 +22,33 @@ class HRW_MAS36_Base: Mosin9130_Base
 	swayModifier[] = {2.5,2.5,1.3};
 	simpleHiddenSelections[] = {"hide_barrel"};
 	//drySound[] = {"dz\sounds\weapons\firearms\mosin9130\mosin_dry",0.5,1,20};
-	//reloadSkips[] = {0.32,0.41,0.5,0.59,0.69,0.77};
+	reloadSkips[] = {0.32,0.41,0.5,0.59,0.69,0.77};
 	//reloadMagazineSound[] = {"dz\sounds\weapons\firearms\mosin9130\mosin_reloading",0.8,1,20};
 	//reloadSound[] = {"DZ\sounds\weapons\firearms\mosin9130\mosin_cycling",0.8,1,20};
 	//reloadAction = "ReloadMosinFull";
 	//shotAction = "ReloadMosinShort";
 	hiddenSelections[] = {"body_metal","body_wood"};
+	hiddenSelectionsTextures[] = 
+	{
+		"H2A\HRW\Weapons\HRW_MAS36\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_MAS36\Data\Body_ca.paa"
+	};
+	hiddenSelectionsMaterials[] = 
+	{
+		"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal.rvmat",
+		"H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood.rvmat"
+	};
 	modes[] = {"Single"};
-	class Single: Mode_SemiAuto
+	class Single: Mode_Single
 	{
 		soundSetShot[] = {"Win_Shot_SoundSet","Win_Tail_SoundSet","Win_InteriorTail_SoundSet"};
 		soundSetShotExt[] = {{"Win_silencerHomeMade_SoundSet","Win_silencerHomeMadeTail_SoundSet","Win_silencerInteriorHomeMadeTail_SoundSet"}};
-		//begin1[] = {"dz\sounds\weapons\firearms\winchester70\winchester70_0",1,1,1000};
-		//begin2[] = {"dz\sounds\weapons\firearms\winchester70\winchester70_1",1,1,1000};
-		soundBegin[] = {"begin1",0.5,"begin2",0.5};
+		//begin1[] = {"dz\sounds\weapons\firearms\mosin9130\mosin_close_0",1,1,1000};
+		//begin2[] = {"dz\sounds\weapons\firearms\mosin9130\mosin_close_1",1,1,1000};
+		//begin3[] = {"dz\sounds\weapons\firearms\mosin9130\mosin_close_2",1,1,1000};
+		soundBegin[] = {"begin1",0.33333,"begin2",0.33333,"begin2",0.33333};
 		//beginSilenced_HomeMade[] = {"dz\sounds\weapons\firearms\m4a1\m4Silenced",1,1,150};
-		soundBeginExt[] = {{"beginSilenced_Pro",1},{"beginSilenced_HomeMade",1}};
+		soundBeginExt[] = {{"beginSilenced_HomeMade",1}};
 		reloadTime = 1;
 		recoil = "recoil_mosin";
 		recoilProne = "recoil_mosin_prone";
@@ -80,13 +92,18 @@ class HRW_MAS36_Base: Mosin9130_Base
 			};
 		};
 	};
+	class NoiseShoot
+	{
+		strength = 90;
+		type = "shot";
+	};
 	class OpticsInfo: OpticsInfoRifle
 	{
 		memoryPointCamera = "eye";
 		modelOptics = "-";
-		distanceZoomMin = 200;
-		distanceZoomMax = 200;
-		discreteDistance[] = {200};
+		distanceZoomMin = 100;
+		distanceZoomMax = 100;
+		discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000};
 		discreteDistanceInitIndex = 0;
 	};
 	class DamageSystem
@@ -98,26 +115,11 @@ class HRW_MAS36_Base: Mosin9130_Base
 				hitpoints = 250;
 				healthLevels[] = 
 				{
-					{1.0,{
-						"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal.rvmat",
-						"H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood.rvmat"
-					}},
-					{0.7,{
-						"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal.rvmat",
-						"H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood.rvmat"
-					}},
-					{0.5,{
-						"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal_damage.rvmat",
-						"H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood_damage.rvmat"
-					}},
-					{0.3,{
-						"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal_damage.rvmat",
-						"H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood_damage.rvmat"
-					}},
-					{0.0,{
-						"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal_destruct.rvmat",
-						"H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood_destruct.rvmat"
-					}}
+					{1.0,{"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal.rvmat","H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood.rvmat"}},
+					{0.7,{"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal.rvmat","H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood.rvmat"}},
+					{0.5,{"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal_damage.rvmat","H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood_damage.rvmat"}},
+					{0.3,{"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal_damage.rvmat","H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood_damage.rvmat"}},
+					{0.0,{"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal_destruct.rvmat","H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood_destruct.rvmat"}}
 				};
 			};
 		};
@@ -130,14 +132,4 @@ class HRW_MAS36: HRW_MAS36_Base
 	model = "H2A\HRW\Weapons\HRW_MAS36\HRW_MAS36.p3d";
 	itemSize[] = {7,3};
 	attachments[] = {"weaponWrap","weaponOpticsMAS","suppressorImpro","weaponBayonetMAS36"};
-	hiddenSelectionsTextures[] = 
-	{
-		"H2A\HRW\Weapons\HRW_MAS36\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_MAS36\Data\Body_co.paa"
-	};
-	hiddenSelectionsMaterials[] = 
-	{
-		"H2A\HRW\Weapons\HRW_MAS36\Data\BodyMetal.rvmat",
-		"H2A\HRW\Weapons\HRW_MAS36\Data\BodyWood.rvmat"
-	};
 };

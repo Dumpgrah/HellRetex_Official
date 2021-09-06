@@ -81,9 +81,9 @@ class HRW_M16M: HRW_M16M_Base
 	spawnDamageRange[] = {0.0,0.6};
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M16M\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M16M\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M16M\Data\StockTube_co.paa"
+		"H2A\HRW\Weapons\HRW_M16M\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M16M\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M16M\Data\StockTube_ca.paa"
 	};
 	
 	hiddenSelectionsMaterials[] = 

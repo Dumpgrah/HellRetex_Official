@@ -153,8 +153,8 @@ class HRW_M1Garand: HRW_M1Garand_Base
 	itemSize[] = {9,3};
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_M1Garand\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_M1Garand\Data\Body_co.paa"
+		"H2A\HRW\Weapons\HRW_M1Garand\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_M1Garand\Data\Body_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{

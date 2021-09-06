@@ -24,11 +24,11 @@ class HRW_Mag_M16A1_20Rnd: Magazine_Base
 				hitpoints = 100;
 				healthLevels[] = 
 				{
-					{1.01,{"H2A\HRW\Weapons\HRW_M16A1\Data\BodyMetal.rvmat"}},
-					{0.7,{"H2A\HRW\Weapons\HRW_M16A1\Data\BodyMetal.rvmat"}},
-					{0.5,{"H2A\HRW\Weapons\HRW_M16A1\Data\BodyMetal_damage.rvmat"}},
-					{0.3,{"H2A\HRW\Weapons\HRW_M16A1\Data\BodyMetal_damage.rvmat"}},
-					{0.01,{"H2A\HRW\Weapons\HRW_M16A1\Data\BodyMetal_destruct.rvmat"}}
+					{1.01,{"H2A\HRW\Weapons\HRW_M16A1\Data\Magazine.rvmat"}},
+					{0.7,{"H2A\HRW\Weapons\HRW_M16A1\Data\Magazine.rvmat"}},
+					{0.5,{"H2A\HRW\Weapons\HRW_M16A1\Data\Magazine_damage.rvmat"}},
+					{0.3,{"H2A\HRW\Weapons\HRW_M16A1\Data\Magazine_damage.rvmat"}},
+					{0.01,{"H2A\HRW\Weapons\HRW_M16A1\Data\Magazine_destruct.rvmat"}}
 				};
 			};
 		};

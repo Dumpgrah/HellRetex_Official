@@ -26,7 +26,7 @@ class HRW_KAR98K_Base: Mosin9130_Base
 	//reloadSound[] = {"DZ\sounds\weapons\firearms\mosin9130\mosin_cycling",0.8,1,20};
 	//reloadAction = "ReloadMosinFull";
 	//shotAction = "ReloadMosinShort";
-	hiddenSelections[] = {"body_metal","body_wood","sling"};
+	hiddenSelections[] = {"body","sling"};
 	hiddenSelectionsMaterials[] = {"dz\weapons\firearms\mosin9130\data\mosin_9130.rvmat"};
 	modes[] = {"Single"};
 	class Single: Mode_SemiAuto
@@ -99,28 +99,23 @@ class HRW_KAR98K_Base: Mosin9130_Base
 				hitpoints = 250;
 				healthLevels[] = {
 					{1.0,{
-						"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyMetal.rvmat",
-						"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyWood.rvmat",
+						"H2A\HRW\Weapons\HRW_KAR98K\Data\Body.rvmat",
 						"H2A\HRW\Weapons\HRW_KAR98K\Data\Sling.rvmat"
 					}},
 					{0.7,{
-						"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyMetal.rvmat",
-						"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyWood.rvmat",
+						"H2A\HRW\Weapons\HRW_KAR98K\Data\Body.rvmat",
 						"H2A\HRW\Weapons\HRW_KAR98K\Data\Sling.rvmat"
 					}},
 					{0.5,{
-						"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyMetal_damage.rvmat",
-						"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyWood_damage.rvmat",
+						"H2A\HRW\Weapons\HRW_KAR98K\Data\Body_damage.rvmat",
 						"H2A\HRW\Weapons\HRW_KAR98K\Data\Sling_damage.rvmat"
 					}},
 					{0.3,{
-						"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyMetal_damage.rvmat",
-						"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyWood_damage.rvmat",
+						"H2A\HRW\Weapons\HRW_KAR98K\Data\Body_damage.rvmat",
 						"H2A\HRW\Weapons\HRW_KAR98K\Data\Sling_damage.rvmat"
 					}},
 					{0.0,{
-						"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyMetal_destruct.rvmat",
-						"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyWood_destruct.rvmat",
+						"H2A\HRW\Weapons\HRW_KAR98K\Data\Body_destruct.rvmat",
 						"H2A\HRW\Weapons\HRW_KAR98K\Data\Sling_destruct.rvmat"
 					}}
 				};
@@ -137,14 +132,13 @@ class HRW_KAR98K: HRW_KAR98K_Base
 	attachments[] = {"weaponWrap","weaponOpticsGewehr","suppressorImpro"};
 	hiddenSelectionsTextures[] = 
 	{
-		"H2A\HRW\Weapons\HRW_KAR98K\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_KAR98K\Data\Body_co.paa",
-		"H2A\HRW\Weapons\HRW_KAR98K\Data\Body_co.paa"
+		"H2A\HRW\Weapons\HRW_KAR98K\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_KAR98K\Data\Body_ca.paa",
+		"H2A\HRW\Weapons\HRW_KAR98K\Data\Body_ca.paa"
 	};
 	hiddenSelectionsMaterials[] = 
 	{
-		"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyMetal.rvmat",
-		"H2A\HRW\Weapons\HRW_KAR98K\Data\BodyWood.rvmat",
+		"H2A\HRW\Weapons\HRW_KAR98K\Data\Body.rvmat",
 		"H2A\HRW\Weapons\HRW_KAR98K\Data\Sling.rvmat"
 	};
 };
